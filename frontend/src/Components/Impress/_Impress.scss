@@ -1,0 +1,35 @@
+.featuresSection{
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04091e;
+    padding: 40px 0 !important;
+    .row{
+        align-items: center;
+        justify-content: center;
+        .fetauresContent{
+            text-align: center;
+            h1{
+                font-size: 36px;
+                font-weight: 600;
+                color: #fff;
+                padding-bottom: 20px !important;
+            }
+            p{
+                font-size: 15px;
+                color: #666;
+                line-height: 30px;
+                padding-bottom: 15px !important;
+            }
+            button{
+                    padding: 10px 30px !important;
+                    color: #04091e;
+                    font-size: 18px;
+                    line-height: 30px;
+                    text-transform: capitalize;
+                    border-radius: 20px;
+                }
+        }
+    }
+}

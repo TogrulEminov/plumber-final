@@ -1,0 +1,85 @@
+.clientsSection {
+    padding: 40px 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+.swiper{
+    padding: 40px 0 !important;
+}
+.swiper-pagination-bullet{
+    border-radius: 0 !important;
+    margin: 0 5px !important;
+    width: 15px;
+    height: 15px;
+}
+.swiper-pagination-bullet-active{
+    background-color: red;
+}
+    .swiper-pagination .swiper-pagination-clickable .swiper-pagination-bullets .swiper-pagination-horizontal{
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+ }
+    .clientTitle {
+        h1 {
+            font-size: 36px;
+            font-weight: 600;
+            padding: 10px 0 !important;
+        }
+        p{
+            font-size: 15px;
+            color: #666;
+        }
+    }
+    .swiper-slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .card{
+            margin: 20px 0 !important;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            text-align: center;
+            width: 350px;
+            background-color: #f9f9ff;
+          .cardImage{
+                width: 100px;
+                border-radius: 50%;
+                margin: 20px auto !important;
+            img{
+                width: 100%;
+                border-radius: 50%;
+            }
+        }  
+        article{
+            padding: 10px !important;
+            p{
+                height: 150px;
+                overflow: hidden;
+                padding: 10px 0 !important;
+                font-size: 15px;
+                text-transform: capitalize;
+                color: #666;
+                line-height: 25px;
+            }
+            .cardFooter{
+                padding: 10px 0 !important;
+                h4{
+                    font-size: 18px;
+                    font-weight: 600;
+                    transition: .4s;
+                    &:hover{
+                        color: red;
+                    }
+                }
+                span{
+                    display:block;
+                    font-size: 15px;
+                    padding: 10px 0 !important;
+                    color: #666;
+                }
+            }
+    }
+}
+}

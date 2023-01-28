@@ -1,0 +1,58 @@
+.messageSection {
+    padding-top: 40px  !important;
+    width: 80%;
+    margin: 0 auto !important;
+    .row {
+        align-items: center;
+        justify-content: center;
+        .messageMap {
+            text-align: end;
+            iframe {
+                height: 500px;
+                width: 500px;
+            }
+        }
+        .messageInputs {
+            background-color: #f9f9ff;
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            form {
+                text-align: center;
+                padding: 0 80px !important;
+                width: 100%;
+                .allInput {
+                    text-align: start;
+                    width: 100%;
+                    padding: 20px 0 !important;
+                    input {
+                        background-color: #f9f9ff;
+                        width: 100%;
+                        padding: 10px !important;
+                        border: 1px solid #ddd;
+                        outline: none;
+                    }
+                    textarea {
+                        height: 200px;
+                        width: 100%;
+                        padding: 10px !important;
+                        outline: none;
+                        background-color: #f9f9ff;
+                    }
+                    button {
+                        border: none;
+                        outline: none;
+                        padding: 10px 30px !important;
+                        cursor: pointer;
+                        color: #fff;
+                        background-color: red;
+                        border-radius: 15px;
+                        font-size: 17px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

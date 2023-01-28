@@ -1,0 +1,96 @@
+.allFooter{
+    padding: 40px 0 !important;
+    background-color: #04091e;
+    .row{
+        align-items: flex-start;
+        justify-content: space-between;
+        .footerLeft{
+            h3{
+                font-size: 18px;
+                color: #fff;
+                font-weight: 600;
+                margin-bottom: 28px !important;
+            }
+            p{
+                color: #666;
+                font-size: 14px;
+                margin-bottom: 20px !important;
+                line-height: 28px;
+            }
+            span{
+                font-size: 14px;
+                color: #666;
+                svg{
+                    color: red;
+                    margin: 0 4px !important;
+                }
+                label{
+                    color: red;
+                }
+                
+            }
+        }
+        .footerCenter{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h3{
+                font-size: 18px;
+                color: #fff;
+                font-weight: 600;
+                margin-bottom: 28px !important;
+            }
+            p{
+                color: rgb(207, 203, 203);
+                font-size: 14px;
+                margin-bottom: 20px !important;
+                line-height: 28px;
+            }
+            form{
+                display: flex;
+                align-items: center;
+                position: relative;
+                width: 400px;
+                margin: 0 auto !important;
+                input{
+                    width: 100%;
+                    padding: 6px !important;
+                    border: 1px solid #ddd;
+                    outline: none;
+                }
+                button{
+                    text-align: center;
+                    padding: 7px !important;
+                    background-color: red;
+                    svg{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .footerRight{
+            h3{
+                font-size: 18px;
+                color: #fff;
+                font-weight: 600;
+                margin-bottom: 28px !important;
+            }
+            p{
+                color: rgb(207, 203, 203);
+                font-size: 14px;
+                margin-bottom: 20px !important;
+                line-height: 28px;
+            }
+            ul{
+                display: flex;
+                align-items: center;
+                li{
+                    color: #fff;
+                    font-size: 20px;
+                    margin-right:10px !important;
+                }
+            }
+        }
+    }
+}

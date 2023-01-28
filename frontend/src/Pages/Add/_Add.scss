@@ -1,0 +1,59 @@
+.addPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 !important;
+    min-height: 500px;
+    .row{
+        align-items: center;
+        justify-content: center;
+        .addForm{
+            border: 1px solid #ddd;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            form{
+                width: 100%;
+            .allInput{
+                width: 100%;
+                padding: 20px 40px !important;
+                .inputLabel{
+                    padding: 10px 0 !important;
+                    font-size: 20px;
+                    color: #666;
+                    font-weight: 600;
+                }
+                input{
+                    width: 100%;
+                    padding: 10px !important;
+                    border: 1px solid #ddd;
+                    outline: none   ;
+                }
+                textarea{
+                    height: 200px;
+                    outline: navajowhite;
+                    width: 100%;
+                    padding: 20px !important;
+                    border: 1px solid #ddd;
+                        resize: none;
+                }
+                p{
+                    color: red;
+                }
+              
+            }
+            button{
+                font-size: 18px;
+                line-height: 35px;
+                color: #fff;
+                background-color: red;
+                padding: 6px 30px !important;
+                margin: 10px 0 !important;
+                border-radius: 20px;
+                outline: none;
+                border: 1px solid red;
+            }
+        }
+    }
+}
+}
